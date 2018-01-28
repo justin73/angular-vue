@@ -1,14 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-// import { VueElement } from 'vue-hi-there';
 import 'vue-hi-there';
+// import 'vue-second-component';
 import { AppComponent } from './app.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    // VueElement
+    AppComponent
   ],
   imports: [
     BrowserModule
