@@ -10,7 +10,7 @@ export class AppComponent implements OnInit {
   title = 'app';
   ngOnInit(): void {
     // tslint:disable-next-line:no-console
-    console.info(document.querySelector('second-component')['prop1']);
+    // console.info(document.querySelector('second-component')['prop1']);
   }
 
 }
